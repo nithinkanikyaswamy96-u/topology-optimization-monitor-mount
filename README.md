@@ -32,9 +32,4 @@
 
 ---
 
-## 🖼️ Example Figures
-(Upload screenshots into `figures/` and link them here)
 
-```markdown
-![Before Optimization](figures/before.png)  
-![After Optimization](figures/after.png)
