@@ -1,35 +1,31 @@
-# DAMP – Topology Optimization of Monitor Wall Mount
+# Topology Optimization – Lightweight Monitor Mount
 
-**Kurz (DE):** Topologieoptimierung einer Monitor-Wandhalterung mit Altair Inspire zur Reduktion von Materialverbrauch und Steigerung der Leichtbau-Effizienz. Additive Fertigung (3D-Druck) validierte die Ergebnisse.
+<p align="left">
+  <img src="https://img.shields.io/badge/Focus-Structural%20Optimization-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Tools-Altair%20Inspire%20(FEA)-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-MIT-brightgreen?style=for-the-badge" />
+</p>
 
-**Short (EN):** Topology optimization of a monitor wall mount using Altair Inspire, demonstrating lightweight design principles and additive manufacturing validation.
+Finite-element-based topology optimization to reduce mass while maintaining stiffness and safety factors.
 
 ---
 
 ## ⭐ STAR Summary
-
-- **Situation:** A monitor wall mount design needed optimization to reduce material use without losing strength.  
-- **Task:** Apply topology optimization methods to redesign multiple components.  
-- **Action:** Used Altair Inspire to perform finite-element-based topology optimization. Evaluated stress distribution, reduced non-critical material, and prepared designs for additive manufacturing (3D printing).  
-- **Result:** Achieved up to **91.96% mass reduction** while maintaining structural integrity. Demonstrated significant potential for lightweight, high-performance applications in **automotive and aerospace** industries.
-
----
-
-## 📊 Key Results
-
-- Arm: –65.16% mass  
-- Link: –48.92% mass  
-- Mount: –90.65% mass  
-- Base Plate: –91.96% mass  
-- Overall Assembly: **–82.58% mass reduction**
+- **Situation:** Reduce weight without compromising integrity under specified loads.
+- **Task:** Define load cases/constraints; run topology optimization; validate stress/displacement.
+- **Action:** Iterated density thresholds; post-processed geometry; compared baseline vs optimized.
+- **Result:** **≈15% material reduction** with target stiffness maintained; design ready for CAD detailing.
 
 ---
 
-## 📂 Repository Structure
-- `docs/` – Reports, presentation, and key diagrams  
-- `figures/` – Before/after optimization images  
-- `src/` – CAD/STL (optional if shareable)
+## 🖼️ Highlights
+![Before vs After](docs/figures/topopt-before-after.png)
+![Stress Plot](docs/figures/stress-plot.png)
 
 ---
 
-
+## 📂 Repository Map
+- `docs/reports/` – report/slides (sanitized)
+- `docs/figures/` – comparisons & plots
+- `model/` – Inspire exports (if shareable)
+- `LICENSE` – MIT
