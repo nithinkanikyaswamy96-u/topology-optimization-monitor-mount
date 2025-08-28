@@ -54,7 +54,6 @@ Design meets functional targets with a much better **mass-to-stiffness** ratio.
 - 📑 **Final Report (PDF):** [`TopologyOptimization_Report.pdf`](docs/reports/TopologyOptimization_Report.pdf)  
 - 🖥️ **Final Presentation (PDF):** [`TopologyOptimization_Presentation.pdf`](docs/reports/TopologyOptimization_Presentation.pdf)
 
-> If your actual filenames differ, rename the links above to match your files in `docs/reports/`.
 
 ---
 
